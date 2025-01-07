@@ -1,9 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     font-family: "Work Sans", serif;
 }
+
 #hero {
     height: 919px;
     background-repeat: no-repeat;
@@ -26,12 +28,14 @@
     gap: 24px;
     position: relative;
 }
-.hero-content img{
+
+.hero-content img {
     height: 100%;
     position: absolute;
     top: 0px;
     z-index: -100;
 }
+
 .hero-content h5 {
     font-weight: 600;
     font-size: 32px;
@@ -47,7 +51,8 @@
     font-weight: 500;
 }
 
-.hero-content button,.watch-all-btn button {
+.hero-content button,
+.watch-all-btn button {
     font-size: 20px;
     font-weight: 600;
     color: white;
@@ -58,31 +63,36 @@
 
 }
 
-.favorite-brand{
+.favorite-brand {
     text-align: center;
     display: flex;
     flex-direction: column;
     align-items: center;
 
 }
-.favorite-brand .title{
+
+.favorite-brand .title {
     width: 50%;
     margin-top: 167px;
     margin-bottom: 48px;
 }
-.favorite-brand .title p{
+
+.favorite-brand .title p {
     font-size: 24px;
     font-weight: 500;
 }
-.favorite-brand .title h2{
+
+.favorite-brand .title h2 {
     font-size: 48px;
     font-weight: 700;
 }
-.favorite-brand .cards{
+
+.favorite-brand .cards {
     display: flex;
     gap: 24px;
 }
-.favorite-brand .cards .card{
+
+.favorite-brand .cards .card {
     width: 480px;
     display: flex;
     flex-direction: column;
@@ -90,25 +100,110 @@
     gap: 32px;
 }
 
-.cards .card .card-img{
+.cards .card .card-img {
     width: 100%;
 }
-.cards .card .card-title{
+
+.cards .card .card-title {
     font-size: 24px;
     font-weight: 600;
     background-color: rgba(82, 195, 3, 0.15);
     padding: 14px 32px;
     border-radius: 8px;
 }
-.cards .card .card-discount{
+
+.cards .card .card-discount {
     font-size: 40px;
     font-weight: 600;
 }
-.cards .card .card-details{
+
+.cards .card .card-details {
     font-size: 18px;
     font-weight: 500;
 }
-.watch-all-btn{
+
+.watch-all-btn {
     margin-top: 64px;
     margin-bottom: 184px;
+}
+
+.about-us {
+    display: flex;
+    gap: 90px;
+    align-items: center;
+}
+
+.about-us .right{
+    text-align: center;
+}
+.about-us .right h2{
+    font-size: 48px;
+    font-weight: 700;
+    padding: 0 24px;
+
+}
+.about-us .right p{
+    font-size: 24px;
+    font-weight: 500;
+    color: rgb(16, 16, 16);
+    margin-top: 24px;
+    margin-bottom: 10px;
+}
+.about-us .right h5{
+    font-size: 32px;
+    font-weight: 600;
+    color: #101010;
+    border-top: 1px solid #d1d1d1;
+    border-bottom: 1px solid #d1d1d1;
+    padding: 30px 0;
+    margin: 32px 0;
+
+}
+.about-us .right .social-links,.social .social-links{
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+}
+.social{
+    background-image: url(./../assets/social-bg.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    text-align: center;
+    margin-top: 100px;
+}
+.social> div{
+    padding: 136px 0;
+    margin: auto;
+    opacity: .9;
+    background-color: white;
+}
+.social h2{
+    font-size: 48px;
+    font-weight: 700;
+    padding: 0 24px;
+    width: 50%;
+    margin: 0 auto;
+}
+.social p {
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 24px;
+    margin-bottom: 10px;
+}
+.social h5{
+    font-size: 32px;
+    font-weight: 600;
+    border-top: 1px solid #d1d1d1;
+    border-bottom: 1px solid #d1d1d1;
+    padding: 30px 0;
+    margin: 32px 0;
+}
+
+footer{
+    padding: 50px;
+}
+footer p{
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
 }
