@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Work Sans", serif;
+}
+#hero {
+    height: 919px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background: linear-gradient(0deg, rgb(9, 9, 9) 2.884%, rgba(16, 16, 16, 0) 101.034%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero-content {
+    width: 1000px;
+    height: 100%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    position: relative;
+}
+.hero-content img{
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    z-index: -100;
+}
+.hero-content h5 {
+    font-weight: 600;
+    font-size: 32px;
+}
+
+.hero-content h1 {
+    font-weight: 700;
+    font-size: 64px;
+}
+
+.hero-content p {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.hero-content button,.watch-all-btn button {
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    background-color: rgb(82, 195, 3);
+    padding: 21px 32px;
+    border: 0;
+    border-radius: 8px;
+
+}
+
+.favorite-brand{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.favorite-brand .title{
+    width: 50%;
+    margin-top: 167px;
+    margin-bottom: 48px;
+}
+.favorite-brand .title p{
+    font-size: 24px;
+    font-weight: 500;
+}
+.favorite-brand .title h2{
+    font-size: 48px;
+    font-weight: 700;
+}
+.favorite-brand .cards{
+    display: flex;
+    gap: 24px;
+}
+.favorite-brand .cards .card{
+    width: 480px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+}
+
+.cards .card .card-img{
+    width: 100%;
+}
+.cards .card .card-title{
+    font-size: 24px;
+    font-weight: 600;
+    background-color: rgba(82, 195, 3, 0.15);
+    padding: 14px 32px;
+    border-radius: 8px;
+}
+.cards .card .card-discount{
+    font-size: 40px;
+    font-weight: 600;
+}
+.cards .card .card-details{
+    font-size: 18px;
+    font-weight: 500;
+}
+.watch-all-btn{
+    margin-top: 64px;
+    margin-bottom: 184px;
+}
